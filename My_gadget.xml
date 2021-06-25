@@ -47,14 +47,7 @@ refresh();
 </script>    
 <table>
 <tr>
-<td><b>ETH<script language="groovy">      
-      import groovy.xml.*
-      import com.atlassian.core.util.DateUtils
-      import com.atlassian.jira.issue.*
-      import com.atlassian.jira.issue.link.*
-      def issuekey1 = "Insertando codigo"
-      print "hoola"
-    </script>  </b></td>
+<td><b>Probando...1...2...3</b></td>
 <td><font align="right" color="#7c06b7">
 <div id="eth">€</div>
 </font></td>
