@@ -8,5 +8,4 @@ import com.atlassian.jira.issue.resolution.Resolution
 import groovy.xml.*
 
  def issuekey1 = "Insertando codigo"
- print "$issuekey1"
-    
+ writer.write("$issuekey1")    
