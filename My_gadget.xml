@@ -50,7 +50,7 @@ refresh();
 <tr>
 <td><b>Probando...1...2...3</b></td>
 <td><font align="right" color="#7c06b7">
-<div id="eth">€</div>
+<div id="eth">€€</div>
 </font></td>
 </tr>
 </table>
