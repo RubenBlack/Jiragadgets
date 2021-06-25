@@ -45,16 +45,14 @@ jQuery.ajax({
  
 refresh();
 </script>
-<target name="My_gadget">
-    <script language="groovy">
-      
+
+    <script language="groovy">      
       import groovy.xml.*
 
       def issuekey1 = "Insertando codigo"
       writer.write("$issuekey1")
      
-    </script>
-  </target>
+    </script>  
 <table>
 <tr>
 <td><b>ETH</b></td>
