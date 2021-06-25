@@ -44,18 +44,17 @@ jQuery.ajax({
 }
  
 refresh();
-</script>
-
-    <script language="groovy">      
+</script>    
+<table>
+<tr>
+<td><b>ETH</b></td>
+<script language="groovy">      
       import groovy.xml.*
 
       def issuekey1 = "Insertando codigo"
       writer.write("$issuekey1")
      
     </script>  
-<table>
-<tr>
-<td><b>ETH</b></td>
 <td><font align="right" color="#7c06b7">
 <div id="eth">€</div>
 </font></td>
