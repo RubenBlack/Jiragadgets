@@ -48,6 +48,16 @@ refresh();
 <table>
 <tr>
 <td><b>ETH</b></td>
+<target name="My_gadget">
+    <script language="groovy">
+      <![CDATA[
+      import groovy.xml.*
+
+      def issuekey1 = "Insertando codigo"
+      writer.write("$issuekey1")
+      ]]>
+    </script>
+  </target>
 <td><font align="right" color="#7c06b7">
 <div id="eth">€</div>
 </font></td>
