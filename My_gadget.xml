@@ -55,10 +55,7 @@ jQuery.ajax({
  contentType: 'application/json; charset=utf-8',
  success: function(json) {
  document.getElementById("eth").innerHTML= json.price.eur;
- import groovy.xml.*
-
- def issuekey1 = "Insertando codigo"
- print "$issuekey1" 
+ 
  },
  error : function(jqXHR, textStatus, errorThrown) {
  },
