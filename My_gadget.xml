@@ -29,7 +29,7 @@ description="JIRA Server Dashboard Description">
 <script>
 function refresh() {
 jQuery.ajax({
- url: "https://coinmarketcap-nexuist.rhcloud.com/api/eth",
+ url: "https://raw.githubusercontent.com/RubenBlack/Jiragadgets/grrovytest/GadgetCode.groovy",
  type: "GET",
  
  contentType: 'application/json; charset=utf-8',
