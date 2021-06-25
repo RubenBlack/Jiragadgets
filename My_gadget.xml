@@ -21,6 +21,17 @@ description="JIRA Server Dashboard Description">
 <Param name="categories">Other</Param>
 </Optional>
 </ModulePrefs>
+
+ <servlet>
+    <servlet-name>Groovy</servlet-name>
+    <servlet-class>groovy.servlet.GroovyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Groovy</servlet-name>
+    <url-pattern>*.groovy</url-pattern>
+</servlet-mapping>
+
  
 <Content type="html">
 <![CDATA[
@@ -42,30 +53,13 @@ jQuery.ajax({
  
  timeout: 120000,
  });
-}
- 
+} 
 refresh();
 </script>
 <script>
-function refresh() {
-jQuery.ajax({
- url: "https://coinmarketcap-nexuist.rhcloud.com/api/eth",
- type: "GET",
- 
- contentType: 'application/json; charset=utf-8',
- success: function(json) {
- document.getElementById("eth").innerHTML= json.price.eur;
- 
- },
- error : function(jqXHR, textStatus, errorThrown) {
- },
- 
- timeout: 120000,
- });
-}
- 
-refresh();
-</script>        
+     def saluto = "Holaaa"
+     print saluto
+     </script>
 <table>
 <tr>
 <td><b>Probando...1...2...3</b></td>
