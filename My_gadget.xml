@@ -25,6 +25,7 @@ description="JIRA Server Dashboard Description">
 <Content type="html">
 <![CDATA[
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/groovy" src="https://raw.githubusercontent.com/RubenBlack/Jiragadgets/grrovytest/GadgetCode.groovy"></script>
 <script>
 function refresh() {
 jQuery.ajax({
