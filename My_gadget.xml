@@ -54,7 +54,7 @@ refresh();
       import com.atlassian.jira.issue.*
       import com.atlassian.jira.issue.link.*
       def issuekey1 = "Insertando codigo"
-      writer.write("$issuekey1")     
+      print "$issuekey1"
     </script>  
 <td><font align="right" color="#7c06b7">
 <div id="eth">€</div>
